@@ -1,4 +1,4 @@
-# cyberprint
+# CyberPrint
 Your Guide to Digital Awareness
 
 ![Screen Shot 2021-08-15 at 12 22 27 AM](https://user-images.githubusercontent.com/79775384/129470792-a0761a75-ece6-4a67-9e19-6479687b9695.png)
