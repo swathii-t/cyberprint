@@ -1,8 +1,7 @@
 # cyberprint
 Your Guide to Digital Awareness
 
-![Screen Shot 2021-08-15 at 2 14 54 AM](https://user-images.githubusercontent.com/79775384/129470764-ca54480c-6ae4-4fbb-a42a-3b72cb951cb5.png)
-
+![Screen Shot 2021-08-15 at 12 22 27 AM](https://user-images.githubusercontent.com/79775384/129470792-a0761a75-ece6-4a67-9e19-6479687b9695.png)
 
 ## Inspiration
 When we came together for our first team meeting, we immediately decided that we wanted to create something for social good. With the global pandemic, we recognized that many of us have gotten a lot closer with technology than we were before. That being said, some of us may have not realized the impact on our lives and other lives that our use of technology has. We decided that we wanted to educate people so that they become digitally aware of their technology usage. However, we didn’t want this to be an ordinary resource guide. To encourage learning, we decided to also include an interactive game to help make it easier to retain information and test current knowledge. 
