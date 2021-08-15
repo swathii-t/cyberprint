@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<script type="module" src="script.js"></script>
+		<title>Login - CyberPrint</title>
+		<!--Link logo-->
+		<link rel="icon" href="logo..link" type="image/x-icon">
+	</head>
+
+	<body>
+		<nav>
+			{{^private}}
+				<a class="signup" href="signup">Signup</a>
+				<a class="log" href="login">Login</a>
+			{{/private}}
+			{{#private}}
+				<a href="game-on"><img src="{{avatar}}"></a>
+				<a class="log" href="logout">LOGOUT</a>
+			{{/private}}
+			<a href="game-on">Game On</a>
+			<a href="digital-citizenship">Digital Citizenship</a>
+			<a href="digital-footprint">Digital Footprint</a>
+			<a href="index">Home</a>
+			<h3>cyberprint</h3>
+		</nav>
+		<header>
+			<img src='logo.png'>
+			<h1>Login</h1>
+		</header>
+		<main>
+			{{^private}}
+				<div class="account">
+					<h2>Login</h2>
+					<form action='/~/Elevate_hacks/login' method='POST' enctype='multipart/form-data'>
+						<input type='email' name='username' placeholder='Email' required>
+						<input type='password' name='password' placeholder='Password' required>
+
+						<input type='submit' value='Log In'>
+						<input type='hidden' name='redirecturl' value='/~/Elevate_hacks/game-on'>
+					</form>
+					<p>Don't have an account? <a href="signup">Sign up for one here!</a></p>
+				</div>
+		</main>
+		{{/private}}
+		{{#private}}
+			<script>
+				location.href = 'account';
+			</script>
+		{{/private}}
+		<footer>
+			© 2021 The Digiwalkers
+		</footer>
+	</body>
+
+</html>

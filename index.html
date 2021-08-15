@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<script type="module" src="script.js"></script>
+		<title>Welcome to CyberPrint</title>
+		<!--Link logo-->
+		<link rel="icon" href="logo..link" type="image/x-icon">
+	</head>
+
+	<body>
+		<nav>
+			{{^private}}
+				<a class="signup" href="signup">Signup</a>
+				<a class="log" href="login">Login</a>
+			{{/private}}
+			{{#private}}
+				<a href="game-on"><img src="{{avatar}}"></a>
+				<a class="log" href="logout">LOGOUT</a>
+			{{/private}}
+			<a href="game-on">Game On</a>
+			<a href="digital-citizenship">Digital Citizenship</a>
+			<a href="digital-footprint">Digital Footprint</a>
+			<a href="index">Home</a>
+			<h3>cyberprint</h3>
+		</nav>
+
+		<header>
+			<img src='logo.png'>
+			<h1>Home</h1>
+		</header>
+		<main>
+
+			<div class="definition">
+				<h1>dig·i·tal a·ware·ness</h1>
+				<p>/ˈdijidl əˈwernəs/</p>
+				<p><i>noun</i></p>
+				<p class="definition">"the knowledge, skills and attitudes required for individuals to use digital tools effectively."</p>
+			</div>
+			<h1>Our Mission</h1>
+			<div class="mission">
+				<p>In a world where most of our time is spent on the digital web, we have to educate ourselves on how to utilize our vital digital resources in a safe yet fun way. Introducing CyberPrint, your online tool on how to navigate the vast internet. As a website visitor, you can learn about how to become digital aware while playing our trivia quiz, browsing through resources, reading about digital citizenship, and learning about the impacts of your digital footprint. Together, let’s surf the web while being internet safe and mindful of our online actions.</p>
+			</div>
+			<a class="gotogame" href="game-on">GAME ON</a>
+			<div class="team">
+				<h1>Meet the Digiwalkers</h1>
+				<div class="memberone">
+					<img class="left" src="images/swathi.jpg">
+					<h1>Swathi Thushiyandan</h1>
+					<p>Hi there! My name is Swathi Thushiyandan (she/her) and I'm an incoming engineering student at Western University, hoping to enter the Software Engineering Track. I have been programming for a few years now and have been wanting to combine that with my passion for graphic design. During my free time, I enjoy trying new foods and doing some karaoke with friends!</p>
+				</div>
+				<div class="membertwo">
+					<img class="right" src="images/soumya.jpg">
+					<h1>Soumya Agarwal</h1><p>
+					Hi! My name is Soumya Agarwal (she/her) and I'm an incoming college freshman at UC Riverside. I recently got into coding and hackathons and they've been a blast. I have a passion for graphic design and enjoy learning new things. In my free time, you'll find me biking, watching tv, or trying food!</p>
+				</div>
+				<div class="memberone">
+					<img class="left" src="images/mahima.jpg">
+					<h1>Mahima Karanth</h1>
+					<p>
+					Hello! My name is Mahima Karanth (she/they) and I'm an incoming senior at Ward Melville Senior High School. I started graphic design since 6th grade, and took part in several related classes and projects since the beginning of my sophomore year. I've recently gained an interest in computer programming, and I am planning to pursue electrical engineering and/or computer science in college! I like to sing, learn languages, and play violin!
+					</p>
+				</div>
+				<div class="membertwo">
+					<img class="right" src="https://media-exp1.licdn.com/dms/image/C4E03AQFf1QC5-ReAMw/profile-displayphoto-shrink_800_800/0/1610362182461?e=1634774400&v=beta&t=MHLAKB9Ah90vRqOf6Xf8wmPoWUSN-rU79TGpJSonAQE">
+					<h1>Riya Patel</h1>
+					<p>Hi! My name is Riya Patel and I will be a first year student at the University of Waterloo this fall! I will be majoring in software engineering and will be part of the co-op program. In grade 11 I took an intro programming course and that sparked my interest in CS. Since then, I have been learning new programming skills and working on various projects. For fun, I love to go to the beach, hike, and try new recipes!</p>
+				</div>
+			</div>
+			<div class="contact">
+				<h1>Contact Us</h1>
+				<p>Have any questions? Feel free to contact us with any questions you have to get in touch!</p>
+				<br><br>
+				<form method="POST" action="https://formspree.io/f/xyylbkyd">
+					<input type="hidden" name="_subject" value="Contact request from personal website" />
+					<input type="email" name="_replyto" placeholder="Your email" required>
+					<textarea name="message" placeholder="Your message" required></textarea>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+		</main>
+		<footer>
+			© 2021 The Digiwalkers
+		</footer>
+	</body>
+
+</html>
